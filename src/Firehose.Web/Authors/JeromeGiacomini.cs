@@ -1,9 +1,6 @@
 ﻿using Firehose.Web.Infrastructure;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.ServiceModel.Syndication;
-using System.Web;
 
 namespace Firehose.Web.Authors
 {
@@ -32,7 +29,7 @@ namespace Firehose.Web.Authors
             get { yield return new Uri("https://jeromegiacomini.net/Blog/feed/"); }
         }
 
-        public GeoPosition Position => new GeoPosition(48.8704842, 2.3449646);
+        public GeoPosition Position => new GeoPosition(48.8315772, 2.3167545999999675);
 
         public string FeedLanguageCode => "fr";
     }
